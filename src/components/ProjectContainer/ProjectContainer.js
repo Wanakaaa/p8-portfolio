@@ -18,6 +18,7 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
+    <div className='project__icons'>
     {project.sourceCode && (
       <a
         href={project.sourceCode}
@@ -36,7 +37,9 @@ const ProjectContainer = ({ project }) => (
       >
         <LaunchIcon />
       </a>
+
     )}
+          </div>
   </div>
 )
 

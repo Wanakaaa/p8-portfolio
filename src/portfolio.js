@@ -1,18 +1,18 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'SC.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Sarah Colin',
+  role: 'Développeur Web',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'À la suite de ma formation en Développement Web avec OpenClassroom, je vous présente ici mes projets.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'http://www.linkedin.com/in/sarah-colin-92201976',
     github: 'https://github.com',
   },
 }
@@ -21,7 +21,16 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Booki',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    // image: 
+  },
+  {
+    name: 'Sophie Bluel',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -29,15 +38,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
+    name: 'Kasa',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -52,20 +53,17 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'Node.js',
+  'Express',
+  'En rajouter/enlever ?'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'srh.colin@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

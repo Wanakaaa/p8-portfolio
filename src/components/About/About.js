@@ -10,18 +10,18 @@ const About = () => {
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Bonjour, je suis <span className='about__name'>{name}.</span>
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'>test {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} >
             <span type='button' className='btn btn--outline'>
-              Resume
+              Mon CV - à faire
             </span>
           </a>
         )}
@@ -41,6 +41,8 @@ const About = () => {
             {social.linkedin && (
               <a
                 href={social.linkedin}
+                target='_blank' 
+                rel='noopener noreferrer'
                 aria-label='linkedin'
                 className='link link--icon'
               >

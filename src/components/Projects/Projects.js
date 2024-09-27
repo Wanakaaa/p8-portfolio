@@ -9,10 +9,12 @@ const Projects = () => {
   return (
     <section id='projects' className='section projects'>
       <h2 className='section__title'>Projects</h2>
-
+      
       <div className='projects__grid'>
         {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
+          <div key={uniqid()} className='project-wrapper'>
+            <ProjectContainer project={project} />
+          </div>
         ))}
       </div>
     </section>
